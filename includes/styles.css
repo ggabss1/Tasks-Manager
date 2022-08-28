@@ -1,0 +1,27 @@
+.form-block{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid;
+    border-radius: 6px;
+    background-image: url('img/background.jpg');
+}
+.form{
+    margin-top:12px;
+}
+.form-span{
+    color:white !important;
+}
+input{
+    max-width: 80%;
+}
+/* mobile */
+@media(max-width: 768px){
+    .form-block{
+        width: 60%;
+    }
+    }
+    
